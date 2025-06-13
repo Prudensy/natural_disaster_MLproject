@@ -1,1 +1,35 @@
+# Dataset Selection
 
+The project integrates real-world data from multiple reputable sources (EM-DAT, INFORM Risk Index, World Bank GDP & population statistics, etc.), selected for their comprehensive coverage of disaster impact, socio-economic context, and geographic diversity. Only entries with complete feature data were included to ensure model reliability.
+
+Below are the main data sources:
+
+1. EM-DAT: The International Disaster Database
+
+  Dataset: public_emdat_2025-05-12.xlsx
+
+  Description: Disaster occurrence, deaths, affected populations, and economic losses globally.
+
+  Source: https://www.emdat.be
+
+  Access: Free registration required.
+2. World Bank & Our World in Data
+
+  Dataset: World bank & Our world in data
+
+  Description: Global development indicators (GDP per capita, population, population density).
+
+  Source:
+  - https://data.worldbank.org/indicator/NY.GDP.PCAP.CD
+  - https://data.worldbank.org/indicator/EN.POP.DNST
+  - https://ourworldindata.org
+  - https://github.com/owid/owid-datasets
+3. EC-JRC: INFORM Risk Index (Mid 2024, Version 068)
+
+  Dataset: inform_risk_mid_2024_v068
+
+  Description: Country-level risk data including hazard exposure, vulnerability, coping capacity.
+
+  Source: https://drmkc.jrc.ec.europa.eu/inform-index
+
+  Direct Link to Data: https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Risk
