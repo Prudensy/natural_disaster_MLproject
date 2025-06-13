@@ -41,3 +41,49 @@ Using real-world disaster data, this project:
 * Integrate real-time weather or spatial data
 * Expand to include smaller-scale disasters
 * Explore time-series models for temporal forecasting
+
+-------------------
+
+Included Files
+
+Jupyter Notebook with all code, preprocessing steps, model training, evaluation, and plots.
+
+Original Datasets:
+
+  * `public_emdat_2025-05-12.xlsx`
+  * `inform_risk_mid_2024_v068.xlsx`
+  * `Population_Density__Long_Format_WB.csv`
+  * `GDP_per_Capita__Long_Format_.csv`
+  * `Our_World_In_Data_v7_2022.csv`
+
+Cleaned Dataset: Combined and preprocessed version used for modeling.
+
+Summary slides with methodology, results, and visualizations.
+
+Instructions to Run the Analysis:
+
+1. Clone or download the repository.
+2. Make sure you have Python 3.8 or higher.
+3. Install the required Python libraries:
+
+```
+pip install pandas numpy scikit-learn matplotlib seaborn xgboost catboost lightgbm hdbscan plotly
+```
+
+4. Open and run the `Disaster_Impact_Analysis.ipynb` notebook in Jupyter or Google Colab.
+5. Follow the notebook cells sequentially to:
+
+   * Load and clean data
+   * Train models
+   * Evaluate results
+   * Visualize anomalies and feature importance
+
+
+Acknowledgments
+Some components of this project were refined with guidance from OpenAI's ChatGPT, including:
+* Implementation of CatBoost for damage prediction
+* Initial setup and structure of the neural network model (MLPRegressor)
+* Integration of HDBSCAN for anomaly detection
+ChatGPT support contributed to improving the code quality, model structure, and workflow.
+
+
